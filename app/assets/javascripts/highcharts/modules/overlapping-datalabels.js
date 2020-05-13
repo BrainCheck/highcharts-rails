@@ -1,22 +1,9 @@
-/**
- * @license Highcharts JS v7.0.3 (2019-02-06)
- *
- * (c) 2009-2019 Torstein Honsi
- *
- * License: www.highcharts.com/license
- */
-'use strict';
-(function (factory) {
-    if (typeof module === 'object' && module.exports) {
-        factory['default'] = factory;
-        module.exports = factory;
-    } else if (typeof define === 'function' && define.amd) {
-        define(function () {
-            return factory;
-        });
-    } else {
-        factory(typeof Highcharts !== 'undefined' ? Highcharts : undefined);
-    }
-}(function (Highcharts) {
+/*
+ Highcharts JS v7.2.1 (2019-10-31)
 
-}));
+ (c) 2009-2019 Torstein Honsi
+
+ License: www.highcharts.com/license
+*/
+(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/modules/overlapping-datalabels",["highcharts"],function(b){a(b);a.Highcharts=b;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){(function(a,c,d,e){a.hasOwnProperty(c)||(a[c]=e.apply(null,d))})(a?a._modules:{},"masters/modules/overlapping-datalabels.src.js",[],function(){})});
+//# sourceMappingURL=overlapping-datalabels.js.map
